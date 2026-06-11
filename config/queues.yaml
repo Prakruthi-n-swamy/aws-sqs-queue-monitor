@@ -1,1 +1,13 @@
+queues:
 
+  order-queue:
+    max_messages: 1000
+    max_age_seconds: 300
+
+  payment-queue:
+    max_messages: 500
+    max_age_seconds: 180
+
+  notification-queue:
+    max_messages: 2000
+    max_age_seconds: 600
